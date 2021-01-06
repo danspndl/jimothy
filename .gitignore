@@ -37,16 +37,14 @@ playground.xcworkspace
 # Swift Package Manager
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
 #
 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
 # hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
-
-.build/
+.swiftpm
 
 # fastlane
 #
@@ -69,12 +67,5 @@ iOSInjectionProject/
 
 # Vapor
 
-Packages
-.build
-.DS_Store
-*.xcodeproj
-DerivedData/
-Package.resolved
-.swiftpm
-Tests/LinuxMain.swift
 .vscode
+.DS_Store
